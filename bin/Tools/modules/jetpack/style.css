@@ -1,0 +1,44 @@
+/* DriverPack Optimiser
+
+Commit by odin3 : http://github.com/odin3 */
+
+.opt_count{
+	padding-left:15px;
+	font-weight: bold;
+	font-size: 9pt;
+	border-top:1px solid #eeeeee;
+	border-bottom:1px solid #eeeeee;
+	padding-top:15px;
+	padding-bottom: 15px;width:100%;
+}
+.opt_tweak{
+	width: 85%;
+	background:#0094FF;
+	border:2px solid #D3D3D3;
+	color:white;
+	padding:8px;
+	margin-top: 5px;
+	-ms-border-radius:2px;
+	border-radius: 2px;
+}
+.tw_name{
+	margin:0px;
+	padding:0px;
+	padding-bottom: 5px;
+	width:100%;
+	border-bottom: 1px dashed #cecece;
+	font-weight: bold;
+	font-size:12pt;
+}
+.tw_desc{
+	margin:0px;
+	padding:0px;
+	font-style: italic;
+	padding:10px;
+	padding-bottom: 25px;
+	font-size:9pt;
+
+}
+.opt_tweak button{
+
+}

@@ -1,0 +1,109 @@
+<!--[if !(IE 6)]><!-->
+<!DOCTYPE html>
+<!--<![endif]-->
+<html>
+	<head>
+		<title>DriverPack Optimiser Alpha</title>
+		<HTA:APPLICATION ID="opt"
+			application="yes"
+			applicationName="DriverPack Optimiser"
+			border="thin"
+			borderStyle="normal"
+			caption="yes"
+			contextMenu="yes"
+			icon=".\Tools\icon.ico"
+			innerBorder="no"
+			maximizeButton="yes"
+			minimizeButton="yes"
+			navigable="yes"
+			scroll="yes"
+			scrollFlat="no"
+			selection="no"
+			showInTaskBar="yes"
+			singleInstance="yes"
+			sysMenu="no"
+			windowState="normal" >
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- [HTML5] -->
+		<meta http-equiv="MSThemeCompatible" content="yes">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+		<!-- [NO CACHE] -->
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="pragma" content="no-cache" />
+
+		<!-- SET [Favicon] -->
+		<link rel="shortcut icon" href="tools\Icon.ico" type="image/x-icon" />
+
+		<!-- Redirect if no JS -->
+		<noscript>
+			<meta http-equiv="refresh" content="10;URL='http://drp.su/error/noscript/'">
+		</noscript>
+
+
+			<!--
+				 ! Никаких JQuery и MooTools ! 
+					! Все только ручками !
+			-->
+
+			<!-- { BEGIN [RUNTIME] } -->
+			<script type="text/javascript" src="tools\modules\hotnode.js"></script>
+			<script type="text/javascript" src="tools\modules\gears.js"></script>
+			<!-- { END [RUNTIME] } -->
+
+			<!-- { BEGIN [JETPACK-INCLUDES] } -->
+			<link rel="stylesheet" type="text/css" href="tools\modules\jetpack\style.css"/>
+			<script type="text/javascript" src="tools\modules\jetpack\jetpack.js"></script>
+			<script type="text/javascript" src="tools\modules\jetpack\tweaks.js"></script>
+			<!-- { END [JETPACK-INCLUDES] } -->
+
+			<link href="tools\style.css" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+		<!-- { REM "I'm using TABLE tag for IE6 support" } -->
+		<div class="main">
+		<table id="container">
+			<tr>
+				<!-- { BEGIN [SIDEBAR] } -->
+				<!--<td id="sidebar">
+				</td>-->
+				<!-- { END [SIDEBAR] } -->
+
+				<!-- { BEGIN [APP-CONTENT] } -->
+				<td id="app-content">
+
+					<h3 id="ui-title"></h3>
+
+					
+						<p id="top-loader"><img width="16" height="16" src="tools/load8.gif">Проверка конфигурации системы, подождите пожалуйста...</p>
+						<p id="top-notification">
+
+						</p>
+
+						<!-- REGION [CONTENT] -->
+						<div class="ui-content" id="ui-content">
+
+						</div>
+						<!-- END [CONTENT] -->
+						</div>
+						<div class="app-footer">
+						<span class="left feedback link" onclick="UI.feedback();"><img src="tools/ico/feedback.png" height="16"/>Оставить отзыв</span>
+						<span class="right version" id="app_version"></span>
+						</div>
+				</td>
+				<!-- { END [APP-CONTENT] } -->
+			</tr>
+		</table>
+
+			<script language="javascript">
+			window.onLoad = function(){window.resizeTo(1024,700);window.moveTo((screen.width - 1024) / 2, (screen.height - 700) / 2);}
+			window.onLoad();
+			UI.appContent.load();
+
+			</script>
+	</body>
+</html>

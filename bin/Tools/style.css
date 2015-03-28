@@ -1,0 +1,364 @@
+﻿/* REGION [COMMON] */
+body {
+	padding:0px;
+	margin:0px;
+	font:9pt 'Segoe UI', sans-serif;
+	background-color: #ffffff;
+    color: black;
+    
+    min-width: 840px;
+    min-height: 600px;
+
+}
+div, p, span, h1, h2, h3, h4, h5, h6
+{
+    cursor: default;
+}
+body, html{height:100%}
+
+.main {height: 100%;width: 100%; margin: 0px; padding: 0px;}
+.left {float:left;}
+.right {float: right;}
+.app-footer {
+    position: fixed;
+    width:95%;
+    bottom:25px;
+}
+.fb_table td{
+    border-bottom: 1px dashed #cccccc;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+#fb_footer button{
+    margin-right:25px;
+}
+.red{
+    color:red;
+}
+.fb_table input{
+    width:256px;
+}
+.td_first{
+    padding-right:48px;
+    font-weight: bold;
+}
+#fb_message 
+{
+    width:450px;
+    height: 180px;
+    resize: none;
+}
+.app-footer #version
+{
+
+}
+.app-footer img
+{
+    position:relative;
+    top:3px;
+    margin-right:3px;
+}
+#container
+{
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+#container td
+{
+    vertical-align: top;
+    border-spacing: 0px;
+}
+#container tr {
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+#sidebar
+{
+    margin: 0px;
+    padding: 0px;
+    width: 220px;
+    border-spacing: 0px;
+    background-image: url('ico/panel.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:cyan;
+    height:100%;
+}
+#app-content
+{
+    border-spacing: none;
+    height:100%;
+    padding-left: 24px;
+    padding-right:24px;
+    padding-top: 5px;
+
+}
+#app-content h3
+{
+    color: #003399;
+    font:12pt 'Segoe UI', sans-serif;
+    border-bottom: 1px solid #D6E5F5;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+}
+
+
+/* END REGION */
+#top-loader img
+{
+    margin-right: 10px;
+}
+#top-loader
+{
+    color: #323232;
+    font-size: 9pt;
+    margin-bottom: 12px;
+}
+
+/* NOTIFICATION */
+.link
+{
+    color: #0066CC;
+    text-decoration: none;
+    font-size:9pt;
+    background:transparent;
+    font:9pt 'Segoe UI', sans-serif;
+    border: none;
+    cursor:pointer;
+    cursor:hand;
+    padding:0px;
+    margin:0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.link:hover
+{
+    text-decoration: underline;
+    color:#3399FF;
+
+}
+.notification
+{
+    border: 1px solid #CCCCCC;
+    padding:10px;
+    padding-left: 0px;
+    border-left-width: 20px;
+}
+.n-success{
+    border-left-color: green;
+}
+.n-fail
+{
+    border-left-color: red;
+}
+.n-alert
+{
+    border-left-color: #FFCC00;
+}
+.notification h1
+{
+    color: #003399;
+    font:12pt 'Segoe UI', sans-serif;
+
+}
+.notification img
+{
+    height:48px;
+    width:48px;
+}
+.notification-icon{
+    width:42px;
+    padding:18px;
+    margin:0px;
+}
+.notification-text
+{
+    margin:0px;
+    padding: 0px;
+    vertical-align: top;
+}
+.notification p
+{
+    font-size: 9pt;
+}
+.notification table, .notification tr, .notification td
+{
+    border-spacing: 0px;
+    border: none;
+    vertical-align: top;
+}
+.ui-content
+{
+   
+
+    width:100%;
+    padding:0px;
+}
+.t2
+{
+    border: 0px;
+    border: 1px solid #E8F1FB;
+    
+    width:100%;
+    height: 400px;
+    border-spacing: 0px;
+    padding: 0px;
+    margin:0px;
+
+}
+.t2 *{
+     border-spacing: 0px;
+}
+
+/* table header E8F1FB*/
+.in-table
+{
+    
+    
+    
+}
+.ui-table-container
+{
+    width:100%;
+    overflow:auto; overflow-x:hidden;
+    height:450px;
+    margin:0px;
+    padding:0px;
+}
+.in-value
+{
+    height:100%;
+    background-image: url('ico/gradient.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 240px;
+    vertical-align: top;
+    padding:5px;
+
+
+}
+.in-value #tweak-title{
+    margin-top:0px;
+}
+.in-value img{
+    margin-right:5px;
+}
+.in-value #tweak-desc
+{
+    padding-bottom: 10px;
+}
+
+.ui-table-header
+{
+    border-spacing: 0px;
+    width:100%;
+}
+.ui-table-header td
+{
+
+border-right:1px solid #E8F1FB;
+border-top: none;
+border-left: none;
+border-bottom:1px solid #E8F1FB;*/
+border-spacing: 0px;
+margin:0px;
+padding: 3px 5px 2px 5px;
+}
+.ui-table-header td:hover
+{
+   background-color: #E8F1FB;
+}
+.ui-table-header tr
+{
+border-spacing: 0px;
+margin:0px;
+}
+#tweak-title{
+    font-weight: bold;
+}
+.in-table .table-group
+{
+    background-image: url('ico/separator.png');
+    background-repeat: repeat-x;
+    width:99%;
+    background-position: center;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+.table-group span
+{
+    background-color: white;
+    padding-left:15px;
+    padding-right: 5px;
+    color:#003399;
+
+}
+.table-group button
+{
+    float:right;
+    background-image: url('ico/up.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:white;
+    border:none;
+    height:16px;
+    width:24px;
+    
+}
+.table-list
+{
+    
+    width:100%;
+}
+.table-list td{
+    padding: 2px 5px 2px 5px;
+}
+.table-list tr:hover
+{
+   background-color: #E8F1FB;
+}
+.table-list .td_name:focus
+{
+    background-color:#3399FF;
+    color:white;
+}
+.table-list .td_checkbox{
+    background: white;
+}
+.td_checkbox 
+{
+    width:24px;
+}
+.td_author 
+{
+    width: 120px;
+}
+.td_last
+{
+    width: 100px;
+}
+.opt_footer
+{
+    padding-top: 15px;
+    width:100%;
+    height:100%;
+    border-top:1px solid black;
+
+}
+
+.opt_footer button
+{
+      font:9pt 'Segoe UI', sans-serif;
+      margin-right:5px;
+}
+.opt_footer span
+{
+    margin-right:15px;
+}
